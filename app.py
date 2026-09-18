@@ -7,10 +7,13 @@ Run with:  streamlit run app.py
 import streamlit as st
 import ollama
 
-MODEL_NAME = "llama3.2:3b"
+MODEL_NAME = "llama3.1:8b"
 SYSTEM_PROMPT = (
     "You are a helpful, friendly assistant. Answer clearly and concisely. "
-    "Use the prior conversation to understand follow-up questions."
+    "Use the prior conversation to understand follow-up questions. "
+    "When a term or acronym is ambiguous, prefer its meaning within "
+    "artificial intelligence, machine learning, and LLM/chatbot systems "
+    "over other fields (e.g. RAG = Retrieval-Augmented Generation)."
 )
 
 st.set_page_config(page_title="Local Chatbot", page_icon="💬")
