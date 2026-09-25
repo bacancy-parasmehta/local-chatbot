@@ -1,2 +1,4 @@
 streamlit
-ollama
+openai
+chromadb
+python-dotenv

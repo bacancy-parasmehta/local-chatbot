@@ -2,3 +2,7 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+.env
+chat_history_db/
+app_stdout.log
+app_stderr.log
